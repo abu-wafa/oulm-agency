@@ -6,9 +6,6 @@ tglMenu.onclick = function(e){
     this.classList.toggle("toggle")
     ULlinks.classList.toggle("open")
 }
-ULlinks.onclick = (e)=>{
-    e.stopPropagation()
-}   
 // close if clicked in the body
     document.addEventListener("click",(e)=>{
     if (e.target !==tglMenu && e.target !==ULlinks){
