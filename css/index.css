@@ -63,6 +63,7 @@ body {
   font-weight: bold;
   font-size: 13px;
   margin-bottom: 10px;
+  border-bottom: 2px solid transparent;
 }
 .landin-page .header .links li:hover {
   border-bottom: 2px solid var(--border-color);
