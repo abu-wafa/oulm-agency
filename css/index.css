@@ -121,6 +121,7 @@ body {
 }
 .landin-page .intro-text ul li {
   text-transform: capitalize;
+  border-bottom: 3px solid transparent;
 }
 .landin-page .intro-text ul li:hover {
   border-bottom: 3px solid var(--border-color);
