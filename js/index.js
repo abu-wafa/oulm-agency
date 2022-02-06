@@ -1,7 +1,7 @@
 let tglMenu = document.querySelector(".landin-page .header .toggle-lins")
 let ULlinks = document.querySelector(".landin-page .header .links")
 
-tglMenu.onclick = function(e){
+    tglMenu.onclick = function(e){
     e.stopPropagation();
     this.classList.toggle("toggle")
     ULlinks.classList.toggle("open")
